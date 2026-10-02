@@ -1,0 +1,150 @@
+{
+  "home": {
+    "asset": "home",
+    "alt": "明るい部屋で、親子が相談員と落ち着いて話しているイメージ"
+  },
+  "consult": {
+    "asset": "counselor",
+    "alt": "相談員が相手の話を丁寧に聴いているイメージ"
+  },
+  "ai-guide": {
+    "asset": "ai",
+    "alt": "静かな図書室でタブレットを使い情報を探す生徒のイメージ"
+  },
+  "concerns": {
+    "asset": "concerns",
+    "alt": "机の上でメモを整理し、気になることをまとめるイメージ"
+  },
+  "school-life": {
+    "asset": "school",
+    "alt": "明るい学習スペースで自分のペースで学ぶ生徒たちのイメージ"
+  },
+  "development": {
+    "asset": "development",
+    "alt": "少人数の学習で、それぞれの取り組みを支える先生と生徒のイメージ"
+  },
+  "reports": {
+    "asset": "community",
+    "alt": "地域の人々が学びや交流に参加するワークショップのイメージ"
+  },
+  "staff": {
+    "asset": "counselor",
+    "alt": "相談を受ける大人と、丁寧に話を聴く相談員のイメージ"
+  },
+  "support": {
+    "asset": "support",
+    "alt": "相談窓口で、職員と来訪者が話しているイメージ"
+  },
+  "about": {
+    "asset": "center",
+    "alt": "緑を眺められる、明るく落ち着いた相談スペースのイメージ"
+  },
+  "booking": {
+    "asset": "booking",
+    "alt": "パソコンと手帳を使って相談の予定を確認するイメージ"
+  },
+  "faq": {
+    "asset": "faq",
+    "alt": "落ち着いた読書スペースで疑問を整理するノートのイメージ"
+  },
+  "contact": {
+    "asset": "contact",
+    "alt": "スマートフォンとノートを使って連絡内容をまとめるイメージ"
+  },
+  "privacy": {
+    "asset": "privacy",
+    "alt": "家族が机の上の書類やノートを確認しているイメージ。実際の相談者や個人情報ではありません"
+  },
+  "site-policy": {
+    "asset": "privacy",
+    "alt": "家族が書類とノートを確認しながら話すイメージ"
+  },
+  "ai-policy": {
+    "asset": "ai",
+    "alt": "タブレットで必要な情報を確認する生徒のイメージ"
+  },
+  "concerns/school": {
+    "asset": "school",
+    "alt": "少人数の安心できる学習スペースで過ごす生徒のイメージ"
+  },
+  "concerns/morning": {
+    "asset": "morning",
+    "alt": "朝の明るい部屋で、子どもに穏やかに付き添う保護者と目覚まし時計のイメージ"
+  },
+  "concerns/friends": {
+    "asset": "friends",
+    "alt": "公園のベンチで穏やかに話し合う二人の生徒のイメージ"
+  },
+  "concerns/learning": {
+    "asset": "learning",
+    "alt": "先生とノートを確認しながら学ぶ生徒のイメージ"
+  },
+  "concerns/senses": {
+    "asset": "senses",
+    "alt": "静かな読書スペースでヘッドホンを使う生徒のイメージ"
+  },
+  "concerns/attention": {
+    "asset": "attention",
+    "alt": "小さな課題カードとノートを整理する生徒の手元のイメージ"
+  },
+  "concerns/parenting": {
+    "asset": "parenting",
+    "alt": "家庭のテーブルで親子が自然に話しているイメージ"
+  },
+  "concerns/future": {
+    "asset": "future",
+    "alt": "緑のある明るい小道を歩く生徒のイメージ"
+  },
+  "school-life/school": {
+    "asset": "school",
+    "alt": "落ち着いた少人数の学習スペースで学ぶ生徒たちのイメージ"
+  },
+  "school-life/parenting": {
+    "asset": "parenting",
+    "alt": "親子が家庭で穏やかに会話するイメージ"
+  },
+  "school-life/alternatives": {
+    "asset": "school",
+    "alt": "自分のペースで取り組める明るい学習スペースのイメージ"
+  },
+  "school-life/rhythm": {
+    "asset": "morning",
+    "alt": "朝の明るい部屋で、子どもに穏やかに付き添う保護者と目覚まし時計のイメージ"
+  },
+  "school-life/learning": {
+    "asset": "learning",
+    "alt": "生徒と先生がノートを確認しながら学習を進めるイメージ"
+  },
+  "school-life/future": {
+    "asset": "future",
+    "alt": "明るい緑の小道をゆっくり歩く生徒のイメージ"
+  },
+  "development/asd": {
+    "asset": "development",
+    "alt": "少人数で互いの取り組みを尊重しながら学ぶイメージ。特定の診断を表すものではありません"
+  },
+  "development/adhd": {
+    "asset": "attention",
+    "alt": "課題の順序を確認するためにカードを整理するイメージ。特定の診断を表すものではありません"
+  },
+  "development/ld": {
+    "asset": "learning",
+    "alt": "学び方を一緒に確認する先生と生徒のイメージ。特定の診断を表すものではありません"
+  },
+  "development/senses": {
+    "asset": "senses",
+    "alt": "静かな場所でヘッドホンを使って過ごす生徒のイメージ"
+  },
+  "development/school-support": {
+    "asset": "schoolsupport",
+    "alt": "先生と生徒が並んで教材を見ながら相談しているイメージ"
+  },
+  "reports/fair-2025": {
+    "asset": "community",
+    "alt": "地域で学びと交流の機会をつくる活動テーマのイメージ。実際のイベント写真ではありません"
+  },
+  "reports/forum-2025": {
+    "asset": "forum",
+    "alt": "保護者が小さなセミナーで学ぶ活動テーマのイメージ。実際の開催写真ではありません"
+  }
+}

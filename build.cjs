@@ -1,0 +1,21 @@
+const fs=require('fs'),path=require('path'),vm=require('vm');
+const root=__dirname,dist=path.join(root,'dist'),assets=path.join(dist,'assets');fs.mkdirSync(assets,{recursive:true});
+const DATA=JSON.parse(fs.readFileSync(path.join(root,'src/content.json'),'utf8'));
+const NAVMASTER=JSON.parse(fs.readFileSync(path.join(root,'src/nav-master.json'),'utf8'));
+const PHOTOS=JSON.parse(fs.readFileSync(path.join(root,'src/photo-map.json'),'utf8'));
+const base={initialPage:'home',navigation:'site',routes:{},operator:'',articleCredit:'',phoneApproved:false,publicationApproved:false,bookingURL:'',aiURL:'',privacyText:''};
+const app=fs.readFileSync(path.join(root,'src/app.js'),'utf8');
+const ctx=vm.createContext({DATA,PHOTOS,NAVMASTER,CONFIG:base,URL,console});vm.runInContext(fs.readFileSync(path.join(root,'src/navigator.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'src/features.js'),'utf8'),ctx);vm.runInContext(app,ctx);
+const routes=vm.runInContext('ROUTES',ctx),ids=Object.keys(routes);
+const json=x=>JSON.stringify(x).replace(/</g,'\\u003c');
+const fav='data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#eaf4fb"/><path d="M5 20C2 7 11 3 21 3c0 10-4 19-16 17Zm0 0L16 8" fill="none" stroke="#2e6b4f" stroke-width="2"/></svg>');
+fs.copyFileSync(path.join(root,'src/style.css'),path.join(assets,'style.css'));
+fs.copyFileSync(path.join(root,'src/app.js'),path.join(assets,'app.js'));
+fs.copyFileSync(path.join(root,'src/navigator.js'),path.join(assets,'navigator.js'));
+fs.copyFileSync(path.join(root,'src/features.js'),path.join(assets,'features.js'));
+fs.writeFileSync(path.join(assets,'content.js'),'const DATA='+json(DATA)+';const PHOTOS='+json(PHOTOS)+';const NAVMASTER='+json(NAVMASTER)+';');
+const manifest=[];
+for(const id of ids){if(!PHOTOS[id])throw Error('Missing photo assignment: '+id);ctx.CONFIG={...base,initialPage:id};const body=vm.runInContext('renderPage('+JSON.stringify(id)+')',ctx);const article=DATA.articles.find(x=>x.id===id)||DATA.reports.find(x=>x.id===id);const intro=body.match(/<p class="intro">([^<]+)/)?.[1];const description=id==='home'?'小中高校生・保護者・先生の教育相談・教育支援ポータル。不登校、転学・退学、学び方の情報や相談窓口を探せます。':article?.summary||intro||'小中高校生・保護者・先生が、今の状況に合う情報や相談先を探すための教育支援ポータルです。';const url=id==='home'?'/':'/'+id+'/';const dest=id==='home'?path.join(dist,'index.html'):path.join(dist,id,'index.html');fs.mkdirSync(path.dirname(dest),{recursive:true});const html=`<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="strict-origin-when-cross-origin"><title>${routes[id]} | 子ども教育支援センター</title><meta name="description" content="${description.replace(/"/g,'&quot;')}"><link rel="icon" type="image/svg+xml" href="${fav}"><link rel="stylesheet" href="/assets/style.css"><script>const CONFIG=${json(ctx.CONFIG)};</script><script src="/assets/content.js" defer></script><script src="/assets/navigator.js" defer></script><script src="/assets/features.js" defer></script><script src="/assets/app.js" defer></script></head><body><div id="app">${body}</div></body></html>`;fs.writeFileSync(dest,html);manifest.push({id,title:routes[id],url,photo:PHOTOS[id].asset,alt:PHOTOS[id].alt});}
+fs.writeFileSync(path.join(root,'page-manifest.json'),JSON.stringify(manifest,null,2));
+fs.writeFileSync(path.join(dist,'404.html'),'<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ページが見つかりません | 子ども教育支援センター</title><link rel="stylesheet" href="/assets/style.css"></head><body><main class="wrap section"><h1>ページが見つかりません</h1><p>URLをご確認いただくか、ホームから必要な情報をお探しください。</p><a class="btn" href="/">ホームへ戻る</a></main></body></html>');
+console.log('Built '+ids.length+' pages with assigned photos');

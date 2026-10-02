@@ -1,0 +1,261 @@
+[
+  {
+    "id": "home",
+    "title": "ホーム",
+    "url": "/",
+    "photo": "home",
+    "alt": "明るい部屋で、親子が相談員と落ち着いて話しているイメージ"
+  },
+  {
+    "id": "consult",
+    "title": "相談する",
+    "url": "/consult/",
+    "photo": "counselor",
+    "alt": "相談員が相手の話を丁寧に聴いているイメージ"
+  },
+  {
+    "id": "ai-guide",
+    "title": "教育支援ナビ",
+    "url": "/ai-guide/",
+    "photo": "ai",
+    "alt": "静かな図書室でタブレットを使い情報を探す生徒のイメージ"
+  },
+  {
+    "id": "concerns",
+    "title": "困りごとから探す",
+    "url": "/concerns/",
+    "photo": "concerns",
+    "alt": "机の上でメモを整理し、気になることをまとめるイメージ"
+  },
+  {
+    "id": "school-life",
+    "title": "不登校・学校生活",
+    "url": "/school-life/",
+    "photo": "school",
+    "alt": "明るい学習スペースで自分のペースで学ぶ生徒たちのイメージ"
+  },
+  {
+    "id": "development",
+    "title": "発達の特性",
+    "url": "/development/",
+    "photo": "development",
+    "alt": "少人数の学習で、それぞれの取り組みを支える先生と生徒のイメージ"
+  },
+  {
+    "id": "reports",
+    "title": "活動REPORT",
+    "url": "/reports/",
+    "photo": "community",
+    "alt": "地域の人々が学びや交流に参加するワークショップのイメージ"
+  },
+  {
+    "id": "staff",
+    "title": "講師紹介",
+    "url": "/staff/",
+    "photo": "counselor",
+    "alt": "相談を受ける大人と、丁寧に話を聴く相談員のイメージ"
+  },
+  {
+    "id": "support",
+    "title": "支援機関を探す",
+    "url": "/support/",
+    "photo": "support",
+    "alt": "相談窓口で、職員と来訪者が話しているイメージ"
+  },
+  {
+    "id": "about",
+    "title": "センターについて",
+    "url": "/about/",
+    "photo": "center",
+    "alt": "緑を眺められる、明るく落ち着いた相談スペースのイメージ"
+  },
+  {
+    "id": "booking",
+    "title": "相談予約",
+    "url": "/booking/",
+    "photo": "booking",
+    "alt": "パソコンと手帳を使って相談の予定を確認するイメージ"
+  },
+  {
+    "id": "faq",
+    "title": "よくある質問",
+    "url": "/faq/",
+    "photo": "faq",
+    "alt": "落ち着いた読書スペースで疑問を整理するノートのイメージ"
+  },
+  {
+    "id": "contact",
+    "title": "お問い合わせ",
+    "url": "/contact/",
+    "photo": "contact",
+    "alt": "スマートフォンとノートを使って連絡内容をまとめるイメージ"
+  },
+  {
+    "id": "privacy",
+    "title": "プライバシーについて",
+    "url": "/privacy/",
+    "photo": "privacy",
+    "alt": "家族が机の上の書類やノートを確認しているイメージ。実際の相談者や個人情報ではありません"
+  },
+  {
+    "id": "site-policy",
+    "title": "サイトポリシー",
+    "url": "/site-policy/",
+    "photo": "privacy",
+    "alt": "家族が書類とノートを確認しながら話すイメージ"
+  },
+  {
+    "id": "ai-policy",
+    "title": "AI利用について",
+    "url": "/ai-policy/",
+    "photo": "ai",
+    "alt": "タブレットで必要な情報を確認する生徒のイメージ"
+  },
+  {
+    "id": "concerns/school",
+    "title": "学校に行きづらいとき",
+    "url": "/concerns/school/",
+    "photo": "school",
+    "alt": "少人数の安心できる学習スペースで過ごす生徒のイメージ"
+  },
+  {
+    "id": "concerns/morning",
+    "title": "朝起きるのが難しいとき",
+    "url": "/concerns/morning/",
+    "photo": "morning",
+    "alt": "朝の明るい部屋で、子どもに穏やかに付き添う保護者と目覚まし時計のイメージ"
+  },
+  {
+    "id": "concerns/friends",
+    "title": "友人関係がつらいとき",
+    "url": "/concerns/friends/",
+    "photo": "friends",
+    "alt": "公園のベンチで穏やかに話し合う二人の生徒のイメージ"
+  },
+  {
+    "id": "concerns/learning",
+    "title": "勉強が心配なとき",
+    "url": "/concerns/learning/",
+    "photo": "learning",
+    "alt": "先生とノートを確認しながら学ぶ生徒のイメージ"
+  },
+  {
+    "id": "concerns/senses",
+    "title": "音や光がつらいとき",
+    "url": "/concerns/senses/",
+    "photo": "senses",
+    "alt": "静かな読書スペースでヘッドホンを使う生徒のイメージ"
+  },
+  {
+    "id": "concerns/attention",
+    "title": "集中しづらいとき",
+    "url": "/concerns/attention/",
+    "photo": "attention",
+    "alt": "小さな課題カードとノートを整理する生徒の手元のイメージ"
+  },
+  {
+    "id": "concerns/parenting",
+    "title": "子どもとの接し方が不安なとき",
+    "url": "/concerns/parenting/",
+    "photo": "parenting",
+    "alt": "家庭のテーブルで親子が自然に話しているイメージ"
+  },
+  {
+    "id": "concerns/future",
+    "title": "進路が心配なとき",
+    "url": "/concerns/future/",
+    "photo": "future",
+    "alt": "緑のある明るい小道を歩く生徒のイメージ"
+  },
+  {
+    "id": "school-life/school",
+    "title": "学校に行きづらいときの情報",
+    "url": "/school-life/school/",
+    "photo": "school",
+    "alt": "落ち着いた少人数の学習スペースで学ぶ生徒たちのイメージ"
+  },
+  {
+    "id": "school-life/parenting",
+    "title": "保護者の接し方を考える",
+    "url": "/school-life/parenting/",
+    "photo": "parenting",
+    "alt": "親子が家庭で穏やかに会話するイメージ"
+  },
+  {
+    "id": "school-life/alternatives",
+    "title": "学校以外の学び方を知る",
+    "url": "/school-life/alternatives/",
+    "photo": "school",
+    "alt": "自分のペースで取り組める明るい学習スペースのイメージ"
+  },
+  {
+    "id": "school-life/rhythm",
+    "title": "生活リズムについて相談する",
+    "url": "/school-life/rhythm/",
+    "photo": "morning",
+    "alt": "朝の明るい部屋で、子どもに穏やかに付き添う保護者と目覚まし時計のイメージ"
+  },
+  {
+    "id": "school-life/learning",
+    "title": "学習の進め方について相談する",
+    "url": "/school-life/learning/",
+    "photo": "learning",
+    "alt": "生徒と先生がノートを確認しながら学習を進めるイメージ"
+  },
+  {
+    "id": "school-life/future",
+    "title": "高校の転校・転学・退学を考えているとき",
+    "url": "/school-life/future/",
+    "photo": "future",
+    "alt": "明るい緑の小道をゆっくり歩く生徒のイメージ"
+  },
+  {
+    "id": "development/asd",
+    "title": "ASDについて知る",
+    "url": "/development/asd/",
+    "photo": "development",
+    "alt": "少人数で互いの取り組みを尊重しながら学ぶイメージ。特定の診断を表すものではありません"
+  },
+  {
+    "id": "development/adhd",
+    "title": "ADHDについて知る",
+    "url": "/development/adhd/",
+    "photo": "attention",
+    "alt": "課題の順序を確認するためにカードを整理するイメージ。特定の診断を表すものではありません"
+  },
+  {
+    "id": "development/ld",
+    "title": "LDやSLDについて知る",
+    "url": "/development/ld/",
+    "photo": "learning",
+    "alt": "学び方を一緒に確認する先生と生徒のイメージ。特定の診断を表すものではありません"
+  },
+  {
+    "id": "development/senses",
+    "title": "感覚の特性について知る",
+    "url": "/development/senses/",
+    "photo": "senses",
+    "alt": "静かな場所でヘッドホンを使って過ごす生徒のイメージ"
+  },
+  {
+    "id": "development/school-support",
+    "title": "学校での困りごとと支援",
+    "url": "/development/school-support/",
+    "photo": "schoolsupport",
+    "alt": "先生と生徒が並んで教材を見ながら相談しているイメージ"
+  },
+  {
+    "id": "reports/fair-2025",
+    "title": "きっかけフェア2025への参加",
+    "url": "/reports/fair-2025/",
+    "photo": "community",
+    "alt": "地域で学びと交流の機会をつくる活動テーマのイメージ。実際のイベント写真ではありません"
+  },
+  {
+    "id": "reports/forum-2025",
+    "title": "2025年度のフォーラム開催報告",
+    "url": "/reports/forum-2025/",
+    "photo": "forum",
+    "alt": "保護者が小さなセミナーで学ぶ活動テーマのイメージ。実際の開催写真ではありません"
+  }
+]

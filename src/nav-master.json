@@ -1,0 +1,165 @@
+{
+  "checked": "2026年10月1日",
+  "supports": [
+    {
+      "id": "police",
+      "name": "警察への緊急通報",
+      "phone": "110",
+      "hours": "事件・事故など、今の危険に対する緊急通報",
+      "url": "https://www.keishicho.metro.tokyo.lg.jp/jiken_jiko/110/110_110.html"
+    },
+    {
+      "id": "ambulance",
+      "name": "救急・消防への緊急通報",
+      "phone": "119",
+      "hours": "急な病気・けが、火災などの緊急通報",
+      "url": "https://www.fdma.go.jp/mission/enrichment/kyukyumusen_kinkyutuhou/119.html"
+    },
+    {
+      "id": "sos",
+      "name": "24時間子供SOSダイヤル",
+      "phone": "0120-0-78310",
+      "hours": "全国共通・24時間。子ども・保護者などの教育上の悩み",
+      "url": "https://www.mext.go.jp/a_menu/shotou/seitoshidou/1306988.htm"
+    },
+    {
+      "id": "abuse",
+      "name": "児童相談所虐待対応ダイヤル",
+      "phone": "189",
+      "hours": "全国共通。匿名での相談・通告も可能。地域を確認して担当の児童相談所へ案内",
+      "url": "https://www.cfa.go.jp/policies/jidougyakutai/gyakutai-taiou-dial/"
+    },
+    {
+      "id": "rights",
+      "name": "こどもの人権110番",
+      "phone": "0120-007-110",
+      "hours": "平日8:30〜17:15。いじめ・体罰などの人権相談。臨時の受付変更は公式案内を確認",
+      "url": "https://www.moj.go.jp/JINKEN/jinken112.html"
+    }
+  ],
+  "regions": {
+    "chiba": {
+      "label": "千葉県",
+      "url": "https://www.cfa.go.jp/children-inquiries/chiba/"
+    },
+    "saitama": {
+      "label": "埼玉県",
+      "url": "https://www.cfa.go.jp/children-inquiries/saitama/"
+    },
+    "tokyo": {
+      "label": "東京都",
+      "url": "https://www.cfa.go.jp/children-inquiries/tokyo/"
+    },
+    "ibaraki": {
+      "label": "茨城県",
+      "url": "https://www.cfa.go.jp/children-inquiries/ibaraki/"
+    }
+  },
+  "topics": {
+    "school": {
+      "label": "学校に行くこと",
+      "pages": [
+        "concerns/school",
+        "school-life/alternatives"
+      ],
+      "answer": "学校に行きづらい理由を一つに決めたり、詳しく説明したりする必要はありません。今の生活と、負担になる場面を整理するための情報をご案内します。"
+    },
+    "friendship": {
+      "label": "友達との関係",
+      "pages": [
+        "concerns/friends",
+        "support"
+      ],
+      "answer": "話せる範囲から伝えられます。学校の中で話しづらいときは、学校以外の相談窓口を探す方法もあります。"
+    },
+    "bullying": {
+      "label": "いじめや学校でのつらい出来事",
+      "pages": [
+        "concerns/friends",
+        "support"
+      ],
+      "answer": "出来事を全部説明できなくても、人の相談窓口を利用できます。安全が心配なときは、信頼できる大人や相談窓口への連絡を優先してください。"
+    },
+    "study": {
+      "label": "勉強や学び方",
+      "pages": [
+        "concerns/learning",
+        "school-life/learning"
+      ],
+      "answer": "読む・書く・覚える・提出するなど、負担になる課題と取り組みやすい方法を学校に確認するための情報をご案内します。"
+    },
+    "career": {
+      "label": "進路",
+      "pages": [
+        "concerns/future",
+        "school-life/future"
+      ],
+      "answer": "本人の希望と、通い方・卒業資格・学習支援・費用などを同じ項目で比べられます。このナビが進路を決めることはありません。"
+    },
+    "family": {
+      "label": "家庭や親子の関わり",
+      "pages": [
+        "concerns/parenting",
+        "school-life/parenting"
+      ],
+      "answer": "保護者自身の迷いや負担からも相談できます。本人が話していることと、家族が心配していることを分けて整理する方法をご案内します。"
+    },
+    "teacher": {
+      "label": "先生や学校との関わり",
+      "pages": [
+        "development/school-support",
+        "consult"
+      ],
+      "answer": "負担になる場面、本人の希望、学校に確認したいことを分けて整理できます。学校や家庭の責任をこのナビが判断することはありません。"
+    },
+    "morning": {
+      "label": "朝や生活リズム",
+      "pages": [
+        "concerns/morning",
+        "school-life/rhythm"
+      ],
+      "answer": "起床や睡眠、学校での状況を分かる範囲で整理できます。体調への不安がある場合は、養護教諭や医療機関にも相談してください。"
+    },
+    "senses": {
+      "label": "音や光の負担",
+      "pages": [
+        "concerns/senses",
+        "development/senses"
+      ],
+      "answer": "負担になる音や光、安心しやすい環境を具体的に伝えるための情報をご案内します。感じ方だけで診断を判断することはありません。"
+    },
+    "attention": {
+      "label": "集中や課題の取り組み",
+      "pages": [
+        "concerns/attention",
+        "development/adhd"
+      ],
+      "answer": "集中しづらい場面だけでなく、取り組みやすい条件も整理できます。特定の診断や薬の判断は行いません。"
+    },
+    "development": {
+      "label": "発達の特性の情報",
+      "pages": [
+        "development",
+        "development/school-support"
+      ],
+      "answer": "特性の現れ方や必要な支援は一人ひとり異なります。公的な情報と相談窓口への入口をご案内します。診断は行いません。"
+    },
+    "unknown": {
+      "label": "まだ整理できない困りごと",
+      "pages": [
+        "concerns",
+        "consult"
+      ],
+      "answer": "まだ言葉にならなくてもかまいません。気になるテーマの情報を見たり、人への相談方法を確認したりできます。"
+    },
+    "transfer": {
+      "label": "高校の転校・転学・退学の迷い",
+      "pages": [
+        "school-life/future",
+        "concerns/future",
+        "consult"
+      ],
+      "answer": "まだ決めていなくても、すでに退学していても相談できます。本人の希望と、在籍・単位・受入れ時期などの確認項目をご案内します。転学や退学をこのナビが決めることはありません。"
+    }
+  }
+}
