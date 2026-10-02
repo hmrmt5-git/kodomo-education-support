@@ -78,20 +78,18 @@ const LEARNING_SUPPORTS=[
 {name:'WISH個別指導教室',reading:'うぃっしゅ',url:'https://www.wishkobetsu.jp/',text:'個別指導教室。対象学年・指導内容・通い方・費用を公式案内で確認できます。',category:'facility',kind:'学習教室'},
 {name:'公文式教室',reading:'くもん',url:'https://www.kumon.ne.jp/',text:'学習教室。近くの教室、教科、学習方法、費用を公式案内で確認できます。',category:'facility',kind:'学習教室'},
 {name:'東京シューレ',reading:'とうきょう',url:'https://www.shure.or.jp/',text:'フリースクール。活動場所・対象年齢・過ごし方・入会条件・費用を確認できます。',category:'facility',kind:'フリースクール'},
-{name:'家庭教師のトライ',reading:'かていきょうし',url:'https://www.trygroup.co.jp/',text:'家庭やオンラインでの学習支援。対象・指導方法・費用を公式案内で確認できます。',category:'facility',kind:'訪問・オンライン学習支援'},
 {name:'早稲田自由スクール',reading:'わせだ',url:'https://www.fswaseda.jp/',text:'小学校4年生～中学校3年生向けのフリースクール。在籍校との関わり・利用条件・費用を確認できます。',category:'facility',kind:'フリースクール'},
 {name:'NHK学園高等学校',reading:'えぬえいちけい',url:'https://www.n-gaku.jp/sch/',text:'通信制高校。学習方法・スクーリング・入学や転編入の条件・費用を確認できます。',category:'school',kind:'通信制高校'},
-{name:'N高等学校・S高等学校・R高等学校',reading:'えぬこう',url:'https://nnn.ed.jp/',text:'通信制高校。各校のコース・通学方法・入学や転編入の条件・費用を確認できます。',category:'school',kind:'通信制高校'},
-{name:'鹿島学園高等学校など（鹿島教育グループ）',reading:'かしま',url:'https://kg-school.net/',text:'通信制高校の公式案内。学校ごとの学習方法・入学や転編入の条件・費用を確認できます。',category:'school',kind:'通信制高校'},
-{name:'クラーク記念国際高等学校',reading:'くらーく',url:'https://www.clark.ed.jp/',text:'通信制高校。キャンパス・コース・入学や転編入の条件・費用を確認できます。',category:'school',kind:'通信制高校'},
-{name:'第一学院高等学校',reading:'だいいち',url:'https://www.daiichigakuin.ed.jp/',text:'通信制高校。通学やオンラインの学習方法・入学や転編入の条件・費用を確認できます。',category:'school',kind:'通信制高校'},
+{name:'敬愛大学八日市場高等学校',reading:'けいあい',url:'https://keiai8.ed.jp/',text:'全日制・通信制の課程がある高校。課程ごとの学習方法・入学条件・費用を公式案内で確認できます。',category:'school',kind:'全日制・通信制高校'},
+{name:'中山学園高等学校',reading:'なかやま',url:'https://nakayama-gakuen.ac.jp/ngh/',text:'通信制高校。スクーリングの方法・入学や転編入の条件・費用を公式案内で確認できます。',category:'school',kind:'通信制高校'},
+{name:'麗澤高等学校',reading:'れいたく',url:'https://www.hs.reitaku.jp/',text:'全日制・通信制の課程がある高校。課程ごとの学習方法・入学条件・費用を公式案内で確認できます。',category:'school',kind:'全日制・通信制高校'},
 {name:'わせがく高等学校',reading:'わせがくこう',url:'https://www.wasegaku.ac.jp/',text:'通信制高校。学習方法・入学や転編入の条件・費用を公式案内で確認できます。',category:'school',kind:'通信制高校'},
 {name:'わせがくPURE高等学校',reading:'わせがくぴゅあ',url:'https://www.pure.wasegaku.ac.jp/',text:'通信制高校。学習方法・入学や転編入の条件・費用を公式案内で確認できます。',category:'school',kind:'通信制高校'},
 {name:'わせがく夢育高等学校',reading:'わせがくゆめ',url:'https://www.yumeiku.wasegaku.ac.jp/',text:'通信制高校。学習方法・入学や転編入の条件・費用を公式案内で確認できます。',category:'school',kind:'通信制高校'}];
 const LEARNING_CATEGORIES=[
 {id:'consult',label:'相談機関',text:'困りごとの整理や、利用できる支援について話したいとき。',note:'地域によって利用できる窓口や対象が異なります。全国の窓口案内も使って、お住まいの地域から探せます。'},
 {id:'facility',label:'支援施設',text:'学校以外の居場所や、教室・家庭での学習支援を探したいとき。',note:'フリースクールと学習教室・家庭教師では、活動内容や目的が異なります。学校の卒業資格を出す機関とは区分が異なります。',directory:['https://freeschoolnetwork.jp/','全国のフリースクールを探す（加盟団体一覧）']},
-{id:'school',label:'学校',text:'進学、転校・転学、退学後の学び直しについて確認したいとき。',note:'通信制高校の個別の例に加え、公立・私立の学びの多様化学校を探す公式一覧も確認できます。全日制・定時制なども含めた進路の相談は、相談機関から探せます。',directory:['https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387004.htm','公立・私立の学びの多様化学校を探す（文部科学省）']}
+{id:'school',label:'学校',text:'進学、転校・転学、退学後の学び直しについて確認したいとき。',note:'各校の個別の例に加え、公立・私立の学びの多様化学校を探す公式一覧も確認できます。全日制・定時制・通信制など、課程ごとの入学や転編入の条件は各校に確認できます。進路の相談は、相談機関からも探せます。',directory:['https://www.mext.go.jp/a_menu/shotou/seitoshidou/1387004.htm','公立・私立の学びの多様化学校を探す（文部科学省）']}
 ];
 function learningSupportList(filterable=true){return `<section class="learning-supports${filterable?' support-item':''}"${filterable?' data-category="education"':''}><h2>学びの場・学習について相談する</h2><p>まず、探したい相談先の種類を選んでください。選んだ項目を開くと、複数の機関・施設・学校から確認できます。</p><div class="learning-choices">${LEARNING_CATEGORIES.map(c=>{const entries=LEARNING_SUPPORTS.filter(x=>x.category===c.id).sort((a,b)=>a.reading.localeCompare(b.reading,'ja'));return `<details class="learning-choice" name="learning-category"><summary><span class="learning-choice-title">${E(c.label)}</span><span class="learning-choice-description">${E(c.text)}</span><span class="learning-choice-hint">選択肢を開く</span></summary><div class="learning-choice-body"><h3>${E(c.label)}の選択肢</h3><p class="note">${E(c.note)}</p><ul class="source-list">${entries.map(x=>`<li><span class="learning-kind">${E(x.kind)}</span>${external(x.url,x.name,'')}<p>${E(x.text)}</p></li>`).join('')}</ul>${c.directory?`<div class="learning-directory">${external(c.directory[0],c.directory[1],'')}<p>一覧から、地域や対象に合う候補をさらに探せます。</p></div>`:''}</div></details>`}).join('')}</div><p class="note">掲載先は選択肢の例です。各一覧は名称の読み順で、順位や推奨度を示しません。対象学年・地域・通い方・費用・在籍校との連携を比べて確認してください。高校の転入・編入、出席・単位の扱いは在籍校と希望先に確認できます。公式ページ確認日：2026年10月2日</p></section>`}
 function learningLinks(id){return ['school-life/alternatives','school-life/future','concerns/future','concerns/learning'].includes(id)?learningSupportList(false):''}
