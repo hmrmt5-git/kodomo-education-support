@@ -71,7 +71,7 @@
   },
   {
     "id": "booking",
-    "title": "相談予約",
+    "title": "教育相談予約（体験）",
     "url": "/booking/",
     "photo": "booking",
     "alt": "パソコンと手帳を使って相談の予定を確認するイメージ"
@@ -110,6 +110,13 @@
     "url": "/ai-policy/",
     "photo": "ai",
     "alt": "タブレットで必要な情報を確認する生徒のイメージ"
+  },
+  {
+    "id": "sitemap",
+    "title": "サイトマップ",
+    "url": "/sitemap/",
+    "photo": "center",
+    "alt": "緑を眺められる、明るく落ち着いた相談スペースのイメージ"
   },
   {
     "id": "concerns/school",
