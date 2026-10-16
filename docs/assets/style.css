@@ -20,3 +20,5 @@
 @media(max-width:620px){.nav{align-items:stretch}.nav-group summary{white-space:normal}.nav-submenu{position:static;width:100%;max-width:none;box-shadow:none;margin:4px 0 12px;padding-left:16px}.nav-group:last-child .nav-submenu{right:auto}.sitemap-groups{grid-template-columns:1fr;gap:24px}}
 
 .school-region{margin-top:1.75rem;border-top:2px solid var(--line);padding-top:1.25rem}.school-region h4{font-size:1.2rem;color:var(--ink);margin:0 0 1rem}.school-course h5{font-size:1rem;color:var(--blue);margin:1.25rem 0 .5rem;font-weight:700}.school-region .source-list{margin:0}.school-course{min-width:0}
+
+.center-social{margin:28px 0;padding:24px;background:var(--sky);border-radius:12px}.center-social h2{font-size:1.35rem;margin-top:0}.center-social .social-account{font-size:.9375rem;color:var(--muted);margin:12px 0 0;overflow-wrap:anywhere}
